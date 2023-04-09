@@ -1,0 +1,448 @@
+* {
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.HappyEid {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(10, 7, 7, 0.5) , rgba(14, 9, 9, 0.5)) , url("images/eid.jpg");
+    background-size: 100%;
+   } 
+header {
+       
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.one {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-transform: capitalize;
+    font-size:35px;
+    text-shadow: 2px 2px 1px rgb(177, 0, 0);
+    padding: 30px;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.two {
+    color: #fff;
+    margin: 65px 45px;
+    font-size: 25px;
+    text-transform: capitalize;
+    display: flex;
+}
+.a {
+    margin: 20px 12px;
+    padding: 5px 12px;
+    height: 33px;
+    text-align: center;
+}
+.two .a:hover {
+    background-color: rgb(255, 200, 0);
+    border-radius: 8px;
+}
+.three {
+    width: 100%;
+    height: 40vh;
+    color: rgba(255, 255, 255, 0.936);
+    font-size: 57px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 3px #888;
+    margin-top: 100px;
+}
+span {
+    color: #ffc800;
+}
+.def h2 {
+    color: #ffc800;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #888;
+
+}
+.def p {
+    color: #888;
+    font-size: 18px;
+    margin: 20px;
+}
+.def {
+    width: 90%;
+        
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+
+}
+.dif {
+    width:100%;
+        display: flex;
+        gap: 40px;
+        margin-left: 130px;
+        
+}
+.dif div{
+    width: 20%;
+    height: 35vh;
+    text-align: center;
+    
+    
+}
+.dif .r1 , .r3 {
+    background-color: rgb(100, 99, 99);
+}
+.dif .r2 , .r4 {
+    background-color: #ffc800;
+} 
+.dif i {
+    font-size: 65px;
+    color: #fff;
+    margin: 15px 0 10px ;
+}
+.dif h1 {
+    font-size: 27px;
+    color: #000;
+    margin: 10px;
+}
+.dif p{
+    font-size: 15px;
+    color: #fff;
+    padding: 15px;
+}
+.r1 , .r2 , .r3 , .r4 {
+    border-radius: 7px;
+    box-shadow: 5px 5px 2px rgb(83, 78, 78);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.hh {
+    color:rgb(255, 200, 0);
+    text-align: center;
+    font-size: 43px;
+    margin-top: 90px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px #888;
+}
+.im .a1{
+    width: 25%;
+    height: 35vh;
+}
+.im .a1 img{
+    width: 100%;
+    height: 34vh;
+}
+.im {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffc800d1;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+
+}
+.form {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(33, 48, 21, 0.6) , rgba(31, 57, 24, 0.4)) , url("images/8.jpg");
+    background-size: 100%;
+    position: relative;
+}
+ form {
+    width: 60%;
+    height: 70vh;
+    background-color: rgba(3, 76, 131, 0.471);
+    border: 4px solid #fbca18;
+    border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    left: 348px;
+    text-align: center;
+}
+.title {
+    color: rgba(255, 255, 255, 0.867);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.title h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.title p {
+    font-size: 20px;
+}
+input , textarea {
+    width: 70%;
+    margin: 10px;
+    background-color: rgba(12, 90, 82, 0.4);
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 2px #f9cc2a solid;
+    color: #f9cc2a;
+    
+}
+input::placeholder , textarea::placeholder {
+    color: #f9cc2a;
+}
+input {
+    height: 30px;
+}
+#button {
+    background-color: rgba(12, 90, 82, 0.4);
+    color: #fbca18;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    padding: 7px 40px;
+    border: 2px #fff solid;
+
+}
+.header {
+    width: 100%;
+    height: 55vh;
+    background-color: #f9cc27;
+}
+.free div {
+    width: 30%;
+    height: 7vh;
+}
+.free{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px 150px;
+    color: rgba(0, 0, 0, 0.744);
+}
+.header .on {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 50px;
+    margin-top:65px;
+}
+.on div {
+    margin:  20px;
+}
+.facebook {
+    color: blue;
+}
+.twitter {
+    color: rgb(78, 138, 198);
+}
+.google {
+    color: rgb(187, 0, 0);
+}
+.insta {
+    color: rgba(236, 92, 233, 0.821);
+}
+.cloud {
+    color: rgb(1, 1, 204);
+}
+ /*small divice(landscape phone,576px)*/
+ @media screen and(max-width:576px){
+    .HappyEid {
+        width: 100%;
+        height: 40vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+       } 
+       .HappyEid .three{
+        margin-top: 90px;
+       }
+       .one {
+        left: 100%;
+        font-size:15px;
+        margin-top: -20px;
+    }
+    .two{
+        font-size:smaller;
+    }
+    
+    .free{
+        left: 200px;
+    }
+    
+    .dif {
+        width:100%;
+            margin-left: 380px;
+            
+    }
+    .dif div{
+        width: 100%;
+        height: 15vh;
+        margin-top: 20px; 
+        
+ }
+ form {
+    width: 70%;
+    height: 10vh;
+    top: -50px;
+    justify-content: center;
+    left: 300px;
+}
+    
+}
+@media screen and(max-width:500px){
+    .HappyEid {
+        width: 100%;
+        height: 40vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+       } 
+       .HappyEid .three{
+        margin-top: 90px;
+       }
+       .one {
+        left: 100%;
+        font-size:15px;
+        margin-top: -20px;
+    }
+    .two{
+        font-size:smaller;
+    }
+    
+    .free{
+        left: 200px;
+    }
+    
+    .dif {
+        width:100%;
+            margin-left: 380px;
+            
+    }
+    .dif div{
+        width: 100%;
+        height: 15vh;
+        margin-top: 20px; 
+        
+ }
+ form {
+    width: 70%;
+    height: 10vh;
+    top: 40px;
+    justify-content: center;
+    left: 300px;
+}
+    
+}
+ /*media divice(landscape phone,768px and up)*/
+ @media (max-width:768px){
+    .two {
+        
+        display: block;
+    }
+    
+    .im .a1{
+        width: 45%;
+        height: 35vh;
+
+    }
+    .dif {
+        width:100%;
+            gap: 40px;
+            margin-left: 100px;
+            
+    }
+    .dif div{
+        width: 20%;
+        height: 35vh;
+        text-align: center;
+        margin-top: -20px; 
+        
+ }
+ form {
+    width: 70%;
+    height: 20vh;
+    top: 50px;
+    left: 100px;
+}
+.HappyEid {
+    width: 100%;
+    height: 70vh;
+    background-size: 100%;
+   } 
+   .HappyEid .three{
+    margin-top: -150px;
+   }
+}
+ 
+ /*large divice(landscape phone,992px and up)*/
+ @media (max-width:950px){
+    form {
+        width: 70%;
+        height: 60vh;
+        top: 40px;
+        left: 200px;
+    }
+    .two {
+        
+        display: block;
+    }
+    .HappyEid {
+        width: 100%;
+        height: 70vh;
+        background-size: 100%;
+       } 
+       .HappyEid .three{
+        margin-top: -150px;
+       }
+     }
+ 
+ /*xlarge divice(large desktops,1200px and up)*/
+ @media (max-width:1200px){
+    .three {
+        width: 100%;
+        height: 40vh;
+        font-size: 57px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-transform: capitalize;
+        margin-top: 70px;
+    }
+    .dif {
+        width:100%;
+            gap: 40px;
+            margin-left: 40px;
+            
+    }
+    .dif div{
+        width: 20%;
+        height: 35vh;
+        text-align: center;
+        margin-top: -20px; 
+        
+    }
+ }
+ /*xxlarge divice(larger desktops,1400px and up)*/
+ @media screen and (max-width:1400px){
+    
+     form {
+        width: 60%;
+        height: 70vh;
+        border-radius: 5px;
+        top: 60px;
+    }
+ }
+ @media screen and (max-width:1591px){
+    
+   
+} 
+ 
+ 
